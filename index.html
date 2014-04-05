@@ -2,51 +2,26 @@
 <html>
 <head>
 	<link rel='stylesheet' href='style.css'/>
-	<script src='script.js'></script>
-
+    <script src='script.js'></script>
+    <script src="jquery.js"></script>
 </head>
 <body>
-    <h1>Hi! I'm Mallika (:</h1>
-    <h4>description</h4>
-    <div class = menubuttons>
-	        Projects
-	</div>
-	<img border="0" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxCfCKm-ZxX5xX1tEVpw3Iq35PW8r59SKXUuCpY2r8JZC4nQLR" alt="No image, sorry!" width="304" height="228" align = "right">
+    <div class ="main_blocks">
+        <img id="main_picture" src="http://m.c.lnkd.licdn.com/mpr/pub/image-pgbUP81FFrcM1GmgfbslxdiqAgMu56UT43gA1kRDA3kBVyQ8pgbA10nFAT80561iJYET/mallika-trivedi.jpg"/>
+    </div>
 
-	<ul class="menu-grid">
-        <li>
-            <div class="menu-titles">
-                <h3>About Me</h3>
-            </div>
-            <div class="menu-item menu-img-1">
-                <div class="menu-info">
-                    <p>What I am<a href="http://www.google.com">Click here!</a></p>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="menu-titles">
-                <h3>Projects</h3>
-            </div>            
-            <div class="menu-item menu-img-2">
-                <div class="menu-info">
-                    <p>What I do<a href="http://www.google.com">Click here!</a></p>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="menu-titles">
-                <h3>Side stuf</h3>
-            </div>            
-            <div class="menu-item menu-img-3">
-                <div class="menu-info">
-                    <p>What I really care about<a href="http://www.google.com">Click here!</a></p>
-                </div>
-            </div>
-        </li>
-        </ul>
-
-
+    <div class ="main_blocks" id="main_blurb">
+        <canvas id="myCanvas">
+            Your browser does not support the HTML5 canvas tag.
+        </canvas>
+        <script>
+            drawBlurb();
+        </script>    
+    </div>
+     <div class ="main_blocks">
+        <!--Add name vertically-->
+    </div>
 
 </body>
+
 </html>
