@@ -28,12 +28,18 @@ strong {
 	text-transform: uppercase;
 }
 
-.connect {
-	text-align: center;
-	padding: 50px;
+
+#footer {
+	width:100%;
+	height:80px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:#C0C0C0;
 }
 
 #connect_options ul{
+	text-align: center;
 	list-style-type: none;
 	font-size: 1.5em;
 }
@@ -78,11 +84,11 @@ strong {
 }
 
 .item-image-3 { 
-	background-image: url(../images/aboutme.jpg);
+	background-image: url(../images/linkedin.jpg);
 }
 
 .item-info {
-	background: rgba(71,48,48, 0.8);
+	background: rgba(70, 104, 199, 0.8);
 	width: inherit;
 	height: inherit;
 	border-radius: 50%;
