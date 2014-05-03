@@ -1,103 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="css/menu.css" type="text/css" media="screen" />
-	<script type="text/javascript" src="js/jquery-1.4.min.js"></script>
-	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
-	<script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
-	<script type="text/javascript" src="js/cufon.yui.js"></script>
-	<script type="text/javascript" src="js/myriad.js"></script>
-	<script type="text/javascript">
-	$(function() {
-		$("#one,#two,#three,#four,#five,#six,#seven,#eight").lavaLamp({
-			fx: "backout", 
-			speed: 700
-		});
-	});
-	</script>
-	<script type="text/javascript">
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<link rel="stylesheet" type="text/css" href="css/style.css" />
+			<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+			<link rel="stylesheet" href="css/menu.css" type="text/css" media="screen" />
+			<script type="text/javascript" src="js/jquery-1.4.min.js"></script>
+			<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+			<script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+			<script type="text/javascript" src="js/cufon.yui.js"></script>
+			<script type="text/javascript" src="js/myriad.js"></script>
+			<script type="text/javascript">
+			$(function() {
+				$("#one,#two,#three,#four,#five,#six,#seven,#eight").lavaLamp({
+					fx: "backout", 
+					speed: 700
+				});
+			});
+			</script>
+			<script type="text/javascript">
 
-	Cufon.replace('li a', {hover: true});
+			Cufon.replace('li a', {hover: true});
 
-	</script>
-	<title>Mallika Trivedi</title>
-</head>
-<body bgcolor="#D4CCC5">
-	<div id="wrapper">
-		<div class="lightmenu">
-			<ul class="lightBlue" id="one">
-				<li><a href="index.html">Home</a></li>
-				<li class="current"><a href="about.html">About</a></li>
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="resume.html">Resume</a></li>
-			</ul>
-		</div>
-		<div id="main_body">
-			<h1> Oh, so you want to know about me? The best way to do that is to talk to me :) But for now, here's a little bit...</h1>
-			<div id="about-me">
-				<h2> I'm a ...</h2>
-				<p> second year Software Engineering student at the University of Waterloo </p>
-				<p> past intern at Desire2Learn Incorporated </p>
-				<p> wanna-be blogger </p>
-			</div>
-			<div id="my-likes">
-				<h2> I like ...</h2>
-				<p> volunteering </p>
-				<p> learning from people who share similar interests </p>
-				<p> quotes. I really try to live by my favourites</p>
-			</div>
-			<div id="weird-likes">
-				<h2> Weird things about me... </h2>
-				<p> My lucky number is 3, I have crazy superstitions about this number</p>
-				<p> I hate milk. Plain white milk makes me throw up. Literally</p>
-				<p> People have noticed that I often skip and hop instead of walk </p>
-			</div>
-			<div id="goals">
-				<h2> Goals this year: </h2>
-				<p> Become a better software engineer. Not a coder, a software engineer</p>
-				<p> Finally enroll in the Management Science option and explore the business side that I've been claiming to be interested in</p>
-				<p> More cooking, less eating out! </p>
-			</div>
-		</div>
-	</div>	
+			</script>
+			<title>Mallika Trivedi</title>
+		</head>
+		<body bgcolor="#D4CCC5">
+			<div id="wrapper">
+				<div class="lightmenu">
+					<ul class="lightBlue" id="one">
+						<li><a href="index.html">Home</a></li>
+						<li class="current"><a href="about.html">About</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="resume.html">Resume</a></li>
+					</ul>
+				</div>
+				<div id="main_body">
+					<h1> Oh, so you want to know about me? The best way to do that is to talk to me :) But for now, here's a little bit...</h1>
+					<div id = "about-items-1">
+						<ul>
+							<li>
+								<div id="about-me">
+									<h2> I'm a ...</h2>
+									<p> second year <a href="https://uwaterloo.ca/software-engineering/"> Software Engineering </a> student at the <a href="https://uwaterloo.ca/"> University of Waterloo </a> </p>
+									<p> past intern at <a href="http://www.desire2learn.com"> Desire2Learn Incorporated </a> </p>
+									<p> wanna-be <a href="http://www.mallikatrivedi.wordpress.com"> blogger </a> </p>
+								</div>
+							</li>
+							<li>
+								<div id="my-likes">
+									<h2> I like ...</h2>
+									<p> volunteering (best experience at <a href="http://www.bigbrothersbigsisters.ca/en/home/default.aspx">BBBS </a>) </p>
+									<p> learning from people who share similar interests (Organizer of <a href="http://www.meetup.com/GDG-Waterloo/"> GDGWaterloo </a>) </p>
+									<p> quotes. I really try to live by my <a href=""> favourites </a></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div id ="about-items-2">
+						<ul>
+							<li>
+								<div id="weird-likes">
+									<h2> Weird things about me... </h2>
+									<p> My lucky number is 3, I have crazy superstitions about this number</p>
+									<p> I hate milk. Plain white milk makes me throw up. Literally</p>
+									<p> I often skip and hop instead of walk </p>
+								</div>
+							</li>
+							<li>
+								<div id="goals">
+									<h2> Goals this year: </h2>
+									<p> Become a better software engineer. Not a coder, a software engineer</p>
+									<p> Enroll in the <a href="https://uwaterloo.ca/management-sciences/current-undergraduate-students/management-sciences-option-msci-option" > Management Science option </a> that I claim to be interested in</p>
+									<p> More cooking, less eating out! </p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>	
 
-	<div id="footer">
-		<div id="connect_options">
-			<ul id="social-media">
-				<li>
-					<a href= "https://twitter.com/TrivediMallika"> 
-						<img src="images/twitter.jpg"/>
-					</a> 
-				</li>
-				<li>
-					<a href= "https://www.facebook.com/mallika.trivedi"> 
-						<img src="images/facebook.png"/>
-					</a>
-				</li>
-				<li>
-					<a href= "http://ca.linkedin.com/in/mallikatrivedi"> 
-						<img src="images/linkedin.png"/>
-					</a>
-				</li>
-				<li>
-					<a href= "https://github.com/mallikatrivedi"> 
-						<img src="images/github-icon.png"/>
-					</a>
-				</li>
-				<li>
-					<a href= "http://instagram.com/mallikatrivedi"> 
-						<img src="images/instagram.png">
-					</a>
-				</li>
-				<li>
-					<a href= "http://mallikatrivedi.wordpress.com"> 
-						<img src="images/wordpress.png"> 
-					</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-</body>
-</html>
+			<div id="footer">
+				<div id="connect_options">
+					<ul id="social-media">
+						<li>
+							<a href= "https://twitter.com/TrivediMallika"> 
+								<img src="images/twitter.jpg"/>
+							</a> 
+						</li>
+						<li>
+							<a href= "https://www.facebook.com/mallika.trivedi"> 
+								<img src="images/facebook.png"/>
+							</a>
+						</li>
+						<li>
+							<a href= "http://ca.linkedin.com/in/mallikatrivedi"> 
+								<img src="images/linkedin.png"/>
+							</a>
+						</li>
+						<li>
+							<a href= "https://github.com/mallikatrivedi"> 
+								<img src="images/github-icon.png"/>
+							</a>
+						</li>
+						<li>
+							<a href= "http://instagram.com/mallikatrivedi"> 
+								<img src="images/instagram.png">
+							</a>
+						</li>
+						<li>
+							<a href= "http://mallikatrivedi.wordpress.com"> 
+								<img src="images/wordpress.png"> 
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</body>
+		</html>
