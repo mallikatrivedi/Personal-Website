@@ -123,19 +123,19 @@ strong {
 }
 
 .item-image-1 { 
-	background-image: url(../images/projects.jpg);
+	background-color: red;
 }
 
 .item-image-2 { 
-	background-image: url(../images/resume.jpg);
+	background-color: orange;
 }
 
 .item-image-3 { 
-	background-image: url(../images/about.png);
+	background-color: black;
 }
 
 .item-info {
-	background: rgba(70, 104, 199, 0.8);
+	background: rgba(100, 100, 100, 0.8);
 	width: inherit;
 	height: inherit;
 	border-radius: 50%;
